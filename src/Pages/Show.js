@@ -70,7 +70,7 @@ const Show = () => {
   return (
         <ShowPageWrapper>
       <ShowMainData image={show.image} 
-      name={show.name} ratings={show.ratings} 
+      name={show.name} rating={show.rating} 
   summary={show.summary} tags={show.genres} />
       <InfoBlock>
           <h2>Details </h2>
